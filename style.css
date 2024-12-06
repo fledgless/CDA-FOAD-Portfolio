@@ -20,48 +20,6 @@ h1, h2, a {
     font-family: Montserrat;
 }
 
-header {
-    background-color: #598392;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 75px;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #EFF6E0;
-    margin: 5vh;
-}
-
-.homepage, .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-}
-
-.homepage {
-    margin-top: 25vh;
-}
-
-.about {
-    padding: 2vh;
-}
-
 h1 {
     color: #124559;
     text-transform: uppercase;
@@ -83,3 +41,103 @@ p {
     font-size: 14px;
 }
 
+a {
+    text-decoration: none;
+    color: #EFF6E0;
+    margin: 5vh;
+}
+
+
+/* header */
+header {
+    background-color: #598392;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* pages */
+.homepage, .about, .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.homepage {
+    margin-top: 25vh;
+}
+
+.about {
+    padding: 2vh;
+}
+
+
+/* contact form */
+
+.form { 
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+} 
+  
+.form .input_field { 
+    margin-bottom: 10px; 
+} 
+  
+.form .input_field input[type="text"], 
+.form textarea { 
+    border: 1px solid #124559; 
+    box-shadow: 1px 2px #01161E;
+    width: 100%; 
+    padding: 10px; 
+} 
+  
+.form textarea { 
+    resize: none; 
+    height: 80px; 
+} 
+  
+button { 
+    border: 0px;  
+    padding: 10px; 
+    text-align: center; 
+    width: 110%; 
+    background: #124559; 
+    color: #fcfbf7; 
+    text-transform: uppercase; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-family: Montserrat;
+  } 
+  
+  button:hover {
+    background-color: #01161E;
+  }
+  
+  #error_message { 
+    margin-bottom: 20px; 
+    width: 40%;
+    background: #124559; 
+    color: #EFF6E0;
+    padding: 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    transition: all 0.5s ease; 
+  }
