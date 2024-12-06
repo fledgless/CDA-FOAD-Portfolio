@@ -1,11 +1,11 @@
 @font-face {
     font-family: OpenSans;
-    src: url(../fonts/OpenSans/static/OpenSans-Regular.ttf);
+    src: url(./fonts/OpenSans/static/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+    src: url(./fonts/Montserrat/static/Montserrat-Bold.ttf);
 }
 
 body {
